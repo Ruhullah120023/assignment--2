@@ -6,7 +6,7 @@ body{
  
 /* head section */
 .heading-1{
-    margin: 150px;
+    margin: 50px;
     font-size: 50px;
     color: darkblue;
 }
@@ -24,7 +24,7 @@ a:hover{
     margin: 20px;
 }
 .button{
-    margin-left: 150px;
+    margin-left: 50px;
     text-decoration: none;
     color: whitesmoke;
     background-color: orangered;
@@ -123,7 +123,7 @@ footer .icon span a{
     .header{
         margin: 50px 0 0 20px;
     }
-    .last-bar{
+    .bottom-bar{
         margin: 50px 0;
     }
     footer{
@@ -146,7 +146,7 @@ footer .icon span a{
         grid-template-columns: repeat(1, 1fr);
         margin: auto;
     }
-    .last-bar{
+    .bottom-bar{
         margin: 50px 0;
     }
     footer{
