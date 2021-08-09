@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* head section */
+h1{
+    margin: 30px;
+    font-size: 50px;
+    color: darkblue;
+}
+.head{
+    width: 100%;
+    background-color: royalblue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+a:hover{ 
+    background-color: rgba(253, 245, 230, 0.301);
+}
+.header img{
+    width: 90%;
+    
+}
+.button{
+    margin-left: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+}
+
+/* players css */
+.top-players{
+    margin: 100px 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    grid-gap: 25px;
+    row-gap: 25px;
+    margin: auto;
+   
+}
+.player img{
+    width: 90%;
+    margin: 17px;
+}
+.player{
+    box-shadow: 10px 10px 40px gray;
+}
+.player h2, p{
+    margin: 18px;
+}
+
+/* bottom section */
+.bottom{
+    width: 80%;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+.bottom img{
+    width: 100%;
+    
+   padding-right: 10px;
+}
+
+/* footer section */
+footer{
+    width: 300px;
+    margin: auto;
+}
+footer img{
+    width: 100%;
+}
+footer h5{
+    text-align: center;
+}
+footer .icon{
+    display: flex;
+    justify-content: center;
+
+}
+footer .icon span a{
+    color: black;
+    background: gray;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+/* Media Queries */
+
+@media (min-width: 0) and (max-width:576px) { 
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        grid-gap: 25px;
+        row-gap: 25px;
+        margin: auto;
+    }
+    .head{
+        width: 100%;
+        background-color: royalblue;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .bottom{
+        width: 80%;
+        font-size: 30px;      
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .header{
+        margin: 50px 0 0 20px;
+    }
+    .last-bar{
+        margin: 50px 0;
+    }
+    footer{
+         padding: 100px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width:800px) { 
+    .players{
+        
+        grid-template-columns: repeat(2, 1fr);
+         
+    }
+     .head{
+         height: 500px;
+     }
+     .bottom{
+             
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .last-bar{
+        margin: 50px 0;
+    }
+    footer{
+        padding: 100px 0;
+   }
+}
